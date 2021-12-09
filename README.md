@@ -5,29 +5,29 @@ I followed and implemented the LeNet-5 CNN architecture by Keras API, then train
 ## The architecture and parameters of LeNet-5 CNN
 ![lenet-5_arch](https://user-images.githubusercontent.com/34623632/145355500-31fce43f-47a8-49a2-9758-73a9e3742768.png)
 
-_________________________________________________________________
- Layer (type)                Output Shape              Param #
-=================================================================
- conv2d (Conv2D)             (None, 28, 28, 6)         156
+***
+ Layer (type)     |           Output Shape      |        Param #
+***
+ conv2d (Conv2D) |            (None, 28, 28, 6) |        156
 
- average_pooling2d (AverageP  (None, 14, 14, 6)        0
+ average_pooling2d (AverageP | (None, 14, 14, 6)|        0
  ooling2D)
 
- conv2d_1 (Conv2D)           (None, 10, 10, 16)        2416
+ conv2d_1 (Conv2D) |           (None, 10, 10, 16)  |      2416
 
- average_pooling2d_1 (Averag  (None, 5, 5, 16)         0
+ average_pooling2d_1 (Averag | (None, 5, 5, 16) |        0
  ePooling2D)
 
- flatten (Flatten)           (None, 400)               0
+ flatten (Flatten) |          (None, 400) |              0
 
- dense (Dense)               (None, 120)               48120
+ dense (Dense)       |        (None, 120)    |           48120
 
- dense_1 (Dense)             (None, 84)                10164
+ dense_1 (Dense)      |        (None, 84)      |           10164
 
- dense_2 (Dense)             (None, 10)                850
-
-=================================================================
+ dense_2 (Dense)        |      (None, 10)        |        850
+ 
+***
 Total params: 61,706
 Trainable params: 61,706
 Non-trainable params: 0
-_________________________________________________________________
+***

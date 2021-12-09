@@ -7,27 +7,21 @@ I followed and implemented the LeNet-5 CNN architecture by Keras API, then train
 
 ***
  Layer (type)     |           Output Shape      |        Param #
-***
- conv2d (Conv2D) |            (None, 28, 28, 6) |        156
-
- average_pooling2d (AverageP | (None, 14, 14, 6)|        0
- ooling2D)
-
- conv2d_1 (Conv2D) |           (None, 10, 10, 16)  |      2416
-
- average_pooling2d_1 (Averag | (None, 5, 5, 16) |        0
- ePooling2D)
-
- flatten (Flatten) |          (None, 400) |              0
-
- dense (Dense)       |        (None, 120)    |           48120
-
- dense_1 (Dense)      |        (None, 84)      |           10164
-
+|-------- | :-----------:  | :-----------: |
+conv2d (Conv2D) |            (None, 28, 28, 6) |        156
+average_pooling2d (AveragePooling2D) | (None, 14, 14, 6)|        0
+conv2d_1 (Conv2D) |         (None, 10, 10, 16)  |      2416
+average_pooling2d_1 (Averag ePooling2D) | (None, 5, 5, 16) |        0
+flatten (Flatten) |          (None, 400) |              0
+dense (Dense)       |        (None, 120)    |           48120
+dense_1 (Dense)      |        (None, 84)      |           10164 
  dense_2 (Dense)        |      (None, 10)        |        850
- 
 ***
-Total params: 61,706
-Trainable params: 61,706
-Non-trainable params: 0
+Total params: 61,706  
+Trainable params: 61,706  
+Non-trainable params: 0  
 ***
+## MNIST handwritten digit dataset
+![MNIST](https://user-images.githubusercontent.com/34623632/145358054-ef4b09e2-431a-4bb0-bcff-7c748431b061.jpg)
+## The prediction result of digit verification code by Lenet-5 model
+![predict_digit](https://user-images.githubusercontent.com/34623632/145358191-0163910a-77bd-4f23-8407-679f92874a81.png)

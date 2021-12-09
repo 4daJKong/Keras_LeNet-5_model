@@ -25,3 +25,12 @@ Non-trainable params: 0
 ![MNIST](https://user-images.githubusercontent.com/34623632/145358054-ef4b09e2-431a-4bb0-bcff-7c748431b061.jpg)
 ## The prediction result of digit verification code by Lenet-5 model
 ![predict_digit](https://user-images.githubusercontent.com/34623632/145358191-0163910a-77bd-4f23-8407-679f92874a81.png)
+## Requirements:
+| Software  | Version |
+| ------------- | ------------- |
+| Python  | 3.9.9  |
+| Numpy  | 1.21.4  |
+| tensorflow  | 2.7.0  |
+| keras  | 2.7.0  |
+| matplotlib  | 3.5.0  |
+

@@ -62,7 +62,7 @@ print('test loss:', score[0])
 print('test accuracy:', score[1])
 
 model.save('lenet-5.h5')
-test_model = keras.models.load_model('lenet-5.h5')
+
 
 
 
